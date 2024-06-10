@@ -1,0 +1,40 @@
+.ad-banner {
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .ad-banner div {
+    max-width: 600px; 
+  }
+  
+  .ad-banner h1 {
+    font-size: 2.5em; 
+    margin: 10px 0; 
+  }
+  
+  .ad-banner h3 {
+    font-size: 1.2em; 
+    margin: 5px 0; 
+  }
+  
+  .blue-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .blue-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
